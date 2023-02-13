@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Get Email address from Twitter account</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		<script src="//s3.amazonaws.com/scripting.com/code/includes/jquery-1.9.1.min.js"></script>
+<link href="//s3.amazonaws.com/scripting.com/code/includes/bootstrap.css" rel="stylesheet">
+<script src="//s3.amazonaws.com/scripting.com/code/includes/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="//s3.amazonaws.com/scripting.com/code/fontawesome/css/all.css">
+<link href="//fonts.googleapis.com/css?family=Ubuntu:400,500i,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+
+<script src="//s3.amazonaws.com/scripting.com/code/includes/basic/code.js"></script>
+<link href="//s3.amazonaws.com/scripting.com/code/includes/basic/styles.css" rel="stylesheet" type="text/css">
+
+		
+		<script src="code.js"></script>
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		
+		
+		</head>
+	<body>
+		<div class="divPageBody">
+			<h3>Let's get your email address</h3>
+			
+			<p>This is for people who use Drummer. 
+			<p>The purpose of this app is to get your email address from your Twitter account. 
+			<p>Once we have this info, we can copy the outlines from your old Drummer account to the new one. 
+			
+			<h4>How to:</h4><ul>
+				<li>In Twitter create a new tweet containing only the text of your email address. 
+				<li>Copy the URL of the tweet to the clipboard.
+				<li>Come back to this page, and paste the URL of the tweet in the edit box below. Click Go.
+				<li>Our server will read the tweet, and if it correctly finds the email address, will record it in our database. 
+				<li>You can then delete the tweet. It isn't needed any longer. 
+				<li>If there's an error, it will tell you what the error is. ;-)
+				</ul>
+			<h4>The URL of your tweet goes here:</h4>
+				<input id="idUrlTweet" class="xlarge" value=" " placeholder="Enter the URL of the tweet here." type="text" >
+				<button id="idGoButton" class="btn btnPost" type="button" onclick="clickGoButton ()" ><i class="fa fa-check"></i> Go</button>
+			</div>
+		<script>
+			$(document).ready (function () {
+				
+				startup ();
+				});
+			</script>
+		</body>
+	</html>

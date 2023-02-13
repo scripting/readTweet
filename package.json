@@ -1,0 +1,11 @@
+{
+	"name": "readtweet",
+	"description": "Gather email addresses for Drummer users."
+	"version": "0.4.0",
+	"author": "Dave Winer <dave@scripting.com>",
+	"main": "readtweet.js",
+	"dependencies" : {
+		"daveutils": "*",
+		"daveappserver": "*"
+		} 
+	}

@@ -1,0 +1,44 @@
+body {
+	font-family: Ubuntu;
+	font-size: 20px;
+	background-color: whitesmoke;
+	}
+.divPageBody {
+	width: 70%;
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 400px;
+	}
+.divPageBody p {
+	line-height: 140%;
+	font-size: 17px;
+	}
+.divPageBody ul li {
+	line-height: 140%;
+	font-size: 17px;
+	margin-bottom: 5px;
+	}
+.divPageBody ul  {
+	margin-bottom: 25px;
+	}
+
+.divVersionNumber {
+	font-size: 12px;
+	float: right;
+	padding: 19px;
+	}
+.iMenuCheck {
+	margin-left: -18px;
+	margin-right: 3px;
+	}
+
+.divPageBody input {
+	font-size: 17px;
+	padding: 7px;
+	height: auto; 
+	margin-top: 10px;
+	width: 515px;
+	}
+
+
